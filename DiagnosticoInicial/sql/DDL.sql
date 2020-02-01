@@ -20,12 +20,12 @@ CREATE TABLE carros(
 	año CHAR(4),
 	color VARCHAR(22),
 	capacidad SMALLINT,
-	precio_factura NUMERIC(6,2)
+	precio_factura NUMERIC(20,2)
 );
 
 CREATE TABLE telefonos(
 	id_chofer INT REFERENCES chofer(id_chofer),
-	telefonos VARCHAR(10)
+	telefonos VARCHAR(20)
 );
 
 

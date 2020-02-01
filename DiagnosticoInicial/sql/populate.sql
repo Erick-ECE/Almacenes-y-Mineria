@@ -1,5 +1,7 @@
 -- fill database tables--
 
+--ALTER SEQUENCE chofer_id_chofer_seq RESTART WITH 1;
+
 -- fill first table (chofer)
 COPY chofer
 (
