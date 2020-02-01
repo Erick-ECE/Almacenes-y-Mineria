@@ -10,7 +10,7 @@ CREATE TABLE chofer(
 	calle VARCHAR(25),
 	correo_electronico VARCHAR(320),
 	fecha_nacimiento DATE,
-	fecha_ingreso DATE,    
+	fecha_ingreso DATE    
 );
 
 CREATE TABLE carros(
